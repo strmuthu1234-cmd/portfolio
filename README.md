@@ -199,3 +199,5 @@ and Swagger availability.
 - All portfolio content (projects, skills, experience, uploads) is editable from `/admin-dashboard`.
 - The 360° project page has a placeholder slot where a GLB model can be added later.
 - Theme colours live in `frontend/tailwind.config.js`.
+#   p o r t f o l i o  
+ 
