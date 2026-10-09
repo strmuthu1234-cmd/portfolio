@@ -1,0 +1,40 @@
+databases:
+  - name: portfolio-db
+    plan: free
+    databaseName: portfolio_db
+
+services:
+  - type: web
+    name: muthupandi-portfolio-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate && python manage.py seed_data
+    startCommand: gunicorn config.wsgi:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_ALLOWED_HOSTS
+        value: .onrender.com
+      - key: DB_ENGINE
+        value: postgres
+      - key: DB_NAME
+        fromDatabase: { name: portfolio-db, property: database }
+      - key: DB_USER
+        fromDatabase: { name: portfolio-db, property: user }
+      - key: DB_PASSWORD
+        fromDatabase: { name: portfolio-db, property: password }
+      - key: DB_HOST
+        fromDatabase: { name: portfolio-db, property: host }
+      - key: DB_PORT
+        fromDatabase: { name: portfolio-db, property: port }
+      - key: SEED_ADMIN_PASSWORD
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false   # set to your Vercel URL, e.g. https://muthupandi-portfolio.vercel.app
+      - key: CSRF_TRUSTED_ORIGINS
+        sync: false   # e.g. https://muthupandi-portfolio-api.onrender.com

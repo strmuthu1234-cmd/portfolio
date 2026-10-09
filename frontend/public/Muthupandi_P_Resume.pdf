@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1681 >>
+stream
+BT /F1 22 Tf 50 790 Td (Muthupandi P) Tj ET
+BT /F1 13 Tf 50 761 Td (Python Full Stack Developer) Tj ET
+BT /F1 11 Tf 50 726 Td (SUMMARY) Tj ET
+BT /F1 9 Tf 50 708 Td (Python Full Stack Developer with hands-on experience in Python, Django, Django REST) Tj ET
+BT /F1 9 Tf 50 692 Td (Framework, React.js, REST APIs, JWT authentication, RBAC, PostgreSQL, MySQL, AWS S3,) Tj ET
+BT /F1 9 Tf 50 676 Td (workflow automation, biometric integration, and interactive web applications.) Tj ET
+BT /F1 11 Tf 50 645 Td (EXPERIENCE) Tj ET
+BT /F1 10 Tf 50 627 Td (Junior Backend & Python Developer \(Full Stack\) | Jul 2025 - Present) Tj ET
+BT /F1 10 Tf 50 610 Td (Beeyoond Gaming \(Sportstech GmbH, Germany\)) Tj ET
+BT /F1 9 Tf 50 593 Td (- Developed full-stack applications using Python, Django, DRF, React.js, and REST APIs) Tj ET
+BT /F1 9 Tf 50 577 Td (- Built and maintained HRM modules; integrated biometric attendance devices) Tj ET
+BT /F1 9 Tf 50 561 Td (- Developed email templates and newsletter systems) Tj ET
+BT /F1 9 Tf 50 545 Td (- Worked on interactive 3D product visualization; supported React-based web apps) Tj ET
+BT /F1 11 Tf 50 514 Td (SKILLS) Tj ET
+BT /F1 9 Tf 50 496 Td (Frontend: React.js, JavaScript, HTML5, CSS3) Tj ET
+BT /F1 9 Tf 50 480 Td (Backend: Python, Django, Django REST Framework, Flask, REST APIs, JWT) Tj ET
+BT /F1 9 Tf 50 464 Td (Database: PostgreSQL, MySQL) Tj ET
+BT /F1 9 Tf 50 448 Td (Tools: AWS S3, Git, GitHub, GitLab, Postman, FileZilla) Tj ET
+BT /F1 9 Tf 50 432 Td (Automation & AI: n8n, Claude, Google Gemini, OpenClaw, NotebookLM) Tj ET
+BT /F1 8 Tf 50 401 Td (\(Placeholder resume - replace frontend/public/Muthupandi_P_Resume.pdf with your own.\)) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001974 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2044
+%%EOF
